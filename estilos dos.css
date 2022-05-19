@@ -123,3 +123,18 @@ footer{
         .parrafo1  a:hover{
             color: beige;
         }
+
+        .cuadrado3{
+            border: solid black 1px;
+            background-color:aqua;
+            text-align: center;
+            align-self: center;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: large;
+             margin-top:5px;
+             padding-top:1px ;
+
+        
+        }
