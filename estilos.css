@@ -43,31 +43,24 @@ h2{
         text-align: auto;
     }
 
-    .menu li ul a {
-        margin-top: 0px;
-        margin-bottom: 25px;
-        padding-top:  10px;
-        padding-bottom: 10px;   
-        margin-right: 50px;
+    .menu ul li a{
+        text-align:auto;
+        background-color:#a29bfe;
+        padding: 5px 10px;        
+
     }
 
-    .menu ul{
-        background-color: #0097e6;
-        text-align:block inline;
-    }
-    
-    .menu  li a{
-        text-decoration: none;
-        margin-right: 15px;
-        color: black;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        padding: 5px 10px;
-    }
-    .menu li a:hover{
-        color: white;
-    }
-    
+ .menu ul li  a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.menu ul li a:hover{
+    color: white;
+}
 
     .Cuadrado{
         background-color:#00a8ff;
@@ -92,6 +85,7 @@ h2{
         margin-top: 10px ;
         margin-bottom: 10px;
         text-align: center;
+
     }
 
     .seccion{
