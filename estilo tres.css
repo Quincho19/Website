@@ -1,0 +1,28 @@
+.agrupar{
+    background-color: aquamarine;
+}
+
+.cabeza{
+    background-color: aqua;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.menu{
+    background-color:#7ed6df;
+    border:solid 1px black;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cuerpo{
+    background-color: rgb(246, 245, 247);
+}
+.menu a{
+    margin-right: 25px;    
+    text-decoration: none;
+    text-align: center;
+}
+.cuerpo{
+    background-color: cornsilk;
+}

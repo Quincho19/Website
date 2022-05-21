@@ -87,7 +87,7 @@ footer{
 
 .parrafo1{
     text-align: center;
-    font-size: medium;
+    font-size:large;
     font-weight: bold;
     }
     
@@ -101,7 +101,7 @@ footer{
 
     .parrafo2{
         text-align: center;
-        font-size: medium;
+        font-size:large;
         font-weight: bold;
         }
         
@@ -133,6 +133,7 @@ footer{
             margin-bottom: 15px;
             padding-bottom: 15px;
             border: 15px #999; 
+            border-image-outset: 1px black;
         }
         
         .imagenes2{
