@@ -1,4 +1,5 @@
 
+/* la mayoria de cambios estan en la parte de abajo del archivo */
 .agrupar{
     background-color: white;
     border:solid black 1pxs ;
@@ -133,16 +134,7 @@ footer{
              padding-top:1px ;
 
         
-        }
-
-#imagenes1{
-    /* justify-content: center;
-    margin-bottom: 15px;
-    padding-bottom: 15px;
-    border-image-outset: 1px black; */
-    border-radius: 5%;
-    border: 3px solid rgb(255, 255, 255); 
-}        
+        }      
         
         .imagenes2{
             justify-content: center;
@@ -155,3 +147,27 @@ footer{
             margin-bottom: 20px;
             border: solid black 1px;
         }
+
+/* El id de su foto lo puse como "quinchoPic" para tener un poco mas de tracking de lo que se hace, siempre intente poner los nombres de id's conforme a lo que se le designa*/
+
+#quinchoPic{
+    
+    border-radius: 5%;
+    border: 3px solid rgb(255, 255, 255); 
+    max-width: 15%;
+    height: auto;
+}  
+
+#nameTitle{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 190%;
+    padding: 0%;
+    margin: 0.5% 0.5% 0.6% 0.5%;
+}
+
+#quinchoInfo{
+
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+}
