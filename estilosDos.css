@@ -57,16 +57,22 @@ body{
     padding: 5px 10px;
 }
 .menu a:hover{
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
-.cuadrado1{
+.cuadrados{
     border: solid black 1px;
     background-color: #0abde3;
     text-align: center;
     align-self: center;
     justify-content: center;
     margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+#footer{
+    border-radius: 10px;
+
 }
 
 .cuadrado2{
@@ -158,6 +164,14 @@ footer{
     height: auto;
 }  
 
+#danielPic{
+    
+    border-radius: 5%;
+    border: 3px solid rgb(255, 255, 255); 
+    max-width: 25%;
+    height: auto;
+}  
+
 #nameTitle{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 190%;
@@ -165,7 +179,7 @@ footer{
     margin: 0.5% 0.5% 0.6% 0.5%;
 }
 
-#quinchoInfo{
+#informaciones{
 
     margin: auto;
     width: 35%;
