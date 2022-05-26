@@ -1,24 +1,27 @@
 <link rel="stylesheet" href="EstilosCuatro.css">
-
+<!-- veo un error, cuando pongo el cursor sobre los labels el cursor cambia de flecha a manita como si se pudiera clickear, voy a cambiar eso ahora -->
+<!-- el label no es necesario, no estoy seguro para que se usa el label pero si lo que quiere poner es un texto en la casilla donde no va a INGRESAR la informacion y va a desaparecer cuando la gente empiece a escribir, eso se llama PLACEHOLDER, y se declara como una propiedad del mismo input -->
+<!-- tambien, donde dice inpuy type, usted pone el tipo de texto que se va a ingresar, por ejemplo puede ser text o password, si es password cuando la persona escriba no se va a poder ver el texto -->
 <body class="cuerpo">
     <div class="todo" >
-<form class= "forma"></form>
-<h2 class="form_title">Inicia sesión</h2>
-<p class="form_paragraph"> Mete tus datos aquí</p>
+        <form class= "forma"></form>
+        <h2 class="form_title">Inicia sesión</h2>
+        <p class="form_paragraph">Ingresa tus datos aquí</p>
 
-<div class="form_container">
-<div class="form_group">
-    <input type="text" id= "nameU" class="form_input" placeholder="">
-    <label for="name or user" class="form_label">Nombre o Usuario</label>
-    <span class="form_line"></span>
-</div>
-<div class="form_group">
-    <input type="text" id= "password" class="form_input" placeholder="">
-    <label for="password" class="form_label">Contraseña</label>
-    <span class="form_line"></span>
-</div>
-
-<input type="submit" class="form_submit" value="Entrar">
-</div>
-</div>
+        <div class="form_container">
+            <div class="casillasDiv">
+                <input type="text" id= "nameU" class="form_input" placeholder="Nombre o Usuario">
+                <!-- <label for="name or user" class="form_label">Nombre o Usuario</label> -->
+                <span class="form_line"></span>
+            </div>
+            <div class="casillasDiv">
+                <input type="password" id= "password" class="form_input" placeholder="Contraseña">
+                <!-- <label for="password" class="form_label">Contraseña</label> -->
+                <span class="form_line"></span>
+            </div>
+            <div >
+                <input type="submit" id="button" value="Entrar">
+            </div>
+        </div>
+    </div>
 </body>
