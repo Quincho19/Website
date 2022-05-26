@@ -173,3 +173,22 @@ h2{
     .link2:hover{
         color: white;
     }
+
+    .form_container{
+        text-align:left;
+        padding: 5px;
+        
+    }
+
+    .form__paragraph{
+        text-align:justify;
+        text-decoration: none;
+
+    }
+    .form__paragraph a{
+        text-decoration: none;
+    }
+    #inicio a:hover{
+        color: #576574;
+    }
+
