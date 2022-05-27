@@ -1,13 +1,20 @@
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 /* la mayoria de cambios estan en la parte de abajo del archivo */
 .agrupar{
-    background-color: white;
-    border:solid black 1pxs ;
-    justify-content: center;
+    max-width: 75%;
+    border: 1px solid black;
+    background-color: #f5f6fa;
+    margin: 20px auto;
 }
 
 body{
     text-align: center;
+    background-color:#95afc0;
 }
 
 #cabecera{
@@ -158,7 +165,7 @@ footer{
 
 #quinchoPic{
     
-    border-radius: 5%;
+    border-radius: 10px;
     border: 3px solid rgb(255, 255, 255); 
     max-width: 15%;
     height: auto;
@@ -166,7 +173,7 @@ footer{
 
 #danielPic{
     
-    border-radius: 5%;
+    border-radius: 10px;
     border: 3px solid rgb(255, 255, 255); 
     max-width: 25%;
     height: auto;
