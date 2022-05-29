@@ -97,6 +97,16 @@ color: white;
     border-radius: 10px;
 }
 
+.link2{
+    text-decoration: none;
+    color: blue;
+    font-size:medium;
+}
+
+.link2:hover{
+    color: white;
+}
+
 .pie{
     clear: both;
     font-family:serif;
@@ -108,24 +118,16 @@ color: white;
 
 
 
-.H1{
+.H2{
     font-family:initial ;
 }
 
-.H2{
+.H3{
     font-family: unset;
 }
 
 
-.link2{
-    text-decoration: none;
-    color: blue;
-    font-size:medium;
-}
 
-.link2:hover{
-    color: white;
-}
 
 
 

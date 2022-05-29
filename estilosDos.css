@@ -77,62 +77,9 @@ body{
     border-radius: 10px;
 }
 
-#footer{
-    border-radius: 10px;
-
-}
-
-.cuadrado2{
-    border: solid black 1px;
-    background-color: #2980b9;
-    text-align: center;
-    align-self: center;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 15px;
-
-}
-
-
-time{
-    color:#999;
-}
 h2{
     text-align: center;
 }
-footer{
-    border: solid black 1px;
-    background-color: gray;
-    padding: 20px;
-}
-
-.parrafo1{
-    text-align: center;
-    font-size:large;
-    font-weight: bold;
-    }
-    
-    .parrafo1 a{
-        text-decoration: none;
-        color:cornflowerblue;
-    }
-    .parrafo2  a:hover{
-        color: beige;
-    }
-
-    .parrafo2{
-        text-align: center;
-        font-size:large;
-        font-weight: bold;
-        }
-        
-        .parrafo2 a{
-            text-decoration: none;
-            color:chartreuse;
-        }
-        .parrafo1  a:hover{
-            color: beige;
-        }
 
         .cuadrado3{
             border: solid black 1px;
@@ -149,12 +96,6 @@ footer{
         
         }      
         
-        .imagenes2{
-            justify-content: center;
-            padding: 20px;
-            margin-bottom: 35px;
-            border: #999 10px;
-        }
         iframe{
             margin-top:20px;
             margin-bottom: 20px;
@@ -169,7 +110,23 @@ footer{
     border: 3px solid rgb(255, 255, 255); 
     max-width: 15%;
     height: auto;
-}  
+   }  
+ #informaciones{
+
+    margin: auto;
+    width: 35%;
+    padding: 10px;
+    font-size:1.2vw;
+    }
+
+#nameTitle{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 190%;
+    padding: 0%;
+    margin: 0.5% 0.5% 0.6% 0.5%;
+    }
+
+
 
 #danielPic{
     
@@ -177,18 +134,14 @@ footer{
     border: 3px solid rgb(255, 255, 255); 
     max-width: 25%;
     height: auto;
-}  
+    }  
+footer{
+    border: solid black 1px;
+    background-color: gray;
+    padding: 20px;
+    }
 
-#nameTitle{
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 190%;
-    padding: 0%;
-    margin: 0.5% 0.5% 0.6% 0.5%;
-}
-
-#informaciones{
-
-    margin: auto;
-    width: 35%;
-    padding: 10px;
-}
+    #footer{
+        border-radius: 10px;
+    
+    }
