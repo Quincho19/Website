@@ -1,0 +1,97 @@
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.agrupar{
+    max-width: 75%;
+    border: 1px solid black;
+    background-color: #f5f6fa;
+    margin: 20px auto;
+}
+
+#cabecera{
+    font-size: 200%;
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 5px 5px black ;
+    border: solid gray 1px;
+    background-color: #0abde3;
+    padding: 1%;
+    background-image: url(Imagenes/panoramic1.jpg);
+    background-position-y: 90%;
+
+}
+
+.menu{
+    margin-top: 0px;
+    text-align: center;
+    margin-bottom: 25px;
+    border: solid  gray 1px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    background-color: aqua;
+
+}
+
+.menu  a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+}
+.menu a:hover{
+    color: rgb(255, 255, 255);
+}
+
+#cuerpo{
+    background-color: 
+    cadetblue;
+}
+
+.contenedor{
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: #ffb;
+    border: 8px dashed #993;
+}
+
+
+
+#personaje{
+    background-color: #900;
+    border: 4px dashed #b22;
+    width: 50px;
+    height: 50px;
+    border-radius: 29px;
+    position: absolute;
+    transition: all 0.3s;
+}
+
+.pointer{
+    background-color: #444;
+    height:30px;
+    margin-top: 30px;
+    border-bottom: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding:10px 0px ;
+}
+
+#footer{
+    border-radius: 10px;
+    background-color:gray;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px dashed black;
+
+}
